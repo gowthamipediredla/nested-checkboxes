@@ -1,7 +1,7 @@
 import { useState } from "react";
+import "./styles.css";
 import { CheckBoxes } from "./CheckBoxes";
 import { nestedCheckboxData } from "./data";
-import "./styles.css";
 
 export default function App() {
   const [checked, setChecked] = useState({});
